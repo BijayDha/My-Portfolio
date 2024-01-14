@@ -1,4 +1,5 @@
 import React from "react";
+import projectpic from "../assets/a.png";
 
 function Projectsection() {
   return (
@@ -28,7 +29,7 @@ function Projectsection() {
           </div>
           <div className="project-card">
             <div className="top">
-              <img src="src/assets/a.png" alt="portfolio" />
+              <img src={projectpic} alt="portfolio" />
             </div>
             <div className="bottom container">
               <h3>Personal Portfolio</h3>
@@ -45,7 +46,7 @@ function Projectsection() {
           </div>
           <div className="project-card">
             <div className="top">
-              <img src="src/assets/a.png" alt="portfolio" />
+              <img src={projectpic} alt="portfolio" />
             </div>
             <div className="bottom container">
               <h3>Personal Portfolio</h3>
@@ -62,7 +63,7 @@ function Projectsection() {
           </div>
           <div className="project-card">
             <div className="top">
-              <img src="src/assets/a.png" alt="portfolio" />
+              <img src={projectpic} alt="portfolio" />
             </div>
             <div className="bottom container">
               <h3>Personal Portfolio</h3>
