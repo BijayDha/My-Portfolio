@@ -12,7 +12,7 @@ function Projectsection() {
         <div className="grid project-container">
           <div className="project-card">
             <div className="top">
-              <img src="src\assets\a.png" alt="portfolio" />
+              <img src={projectpic} alt="portfolio" />
             </div>
             <div className="bottom container">
               <h3>Personal Portfolio</h3>
